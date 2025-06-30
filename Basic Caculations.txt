@@ -1,0 +1,30 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       //System.out.println("Try programiz.pro");
+
+
+double x=330;
+double y=0;
+
+    //  System.out.println(x+y);
+        
+        System.out.println("The sum is " + (x+y));
+        
+        System.out.println("The difference is " + (x-y));
+        
+        System.out.println("The product is " + (x*y)) ; 
+        if(y==0)
+        {
+            System.out.println("Cannot be divided by 0");
+        }else
+        {
+           System.out.println("The result is " + (x/y));
+        }
+                            
+       // System.out.println("The result is " + (x/y));
+
+    }
+}
